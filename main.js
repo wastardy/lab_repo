@@ -10,5 +10,4 @@ const add = (num1, num2) => {
     console.log(`Your result: ${result}`);
 }
 
-console.log('Entered numbers: ', ...numbers);
 add(...numbers);
