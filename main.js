@@ -10,4 +10,12 @@ const add = (num1, num2) => {
     console.log(`Your result: ${result}`);
 }
 
+const subtract = (num1, num2) => {
+    let result = num1 - num2;
+
+    alert(`Your result: ${result}`);
+    console.log(`Your result: ${result}`);
+}
+
 add(...numbers);
+subtract(...numbers);
