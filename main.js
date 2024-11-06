@@ -1,6 +1,6 @@
 const numbers = [
-    prompt('Enter first number:'),
-    prompt('Enter second number:'),
+    Number(prompt('Enter first number:')),
+    Number(prompt('Enter second number:')),
 ];
 
 const add = (num1, num2) => {
