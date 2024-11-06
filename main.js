@@ -1,6 +1,13 @@
-let a = 5;
-let b = 4;
+const numbers = [
+    prompt('Enter first number:'),
+    prompt('Enter second number:'),
+];
 
-const add = (num1, num2) => num1 + num2;
+const add = (num1, num2) => {
+    let result = num1 + num2;
 
-console.log(`Your result: ${add(a, b)}`);
+    alert(`Your result: ${result}`);
+    console.log(`Your result: ${result}`);
+}
+
+add(...numbers);
