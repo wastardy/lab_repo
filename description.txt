@@ -5,3 +5,5 @@ here is some technical description for my project
 - calculator abilities: add, subtract, multiple, divide
   
 - user input from web prompts
+
+- will be a plus to create Readme file with photos
