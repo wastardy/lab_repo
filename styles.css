@@ -1,0 +1,72 @@
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            background-color: #f0f0f0;
+        }
+
+        .card {
+            top: 60px;
+            width: 100%;
+            max-width: 450px;
+            min-height: 600px;
+            box-shadow: 0px 10px 12px rgba(0, 0, 0, 0.2);
+            border-radius: 10px;
+            padding: 20px;
+            margin: 0 auto;
+            transition: box-shadow 0.3s ease-in-out, border-radius 0.3s ease-in-out;
+        }
+
+        .card:hover {
+            border-radius: 22px; 
+            box-shadow: 0px 14px 16px rgba(0, 0, 0, 0.2);
+        }
+
+        .task-list {
+            list-style: decimal;
+        }
+
+        .btn, .task-input{
+            border-radius: 50px;
+        }
+
+        .btn-primary {
+            height: 45px;
+            width: 49%;
+        }
+
+        .clear-all-btn {
+            outline: none;
+            height: 45px;
+            width: 49%;
+            background-color: #ce4545;
+            color: #ffffff;
+        }
+
+        .clear-all-btn:hover {
+            background-color: #b43d3d;
+            color: #ffffff;
+        }
+
+        .btn-secondary {
+            width: 35px;
+            height: 30px;
+            font-size: 16px;
+            padding: 0px 0px;
+            margin: 0 auto;
+            float: right;
+        }
+
+        .task-input {
+            border: 3px solid #6363f9;
+            outline: none;
+        }
+
+        .task-item {
+            border-bottom: 2px solid #3b3b3b61;
+            margin: 0px 0px 20px;
+            padding-bottom: 5px;
+        }
