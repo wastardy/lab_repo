@@ -30,6 +30,10 @@
             box-shadow: 0px 14px 16px rgba(0, 0, 0, 0.2);
         }
 
+        .task-list {
+            list-style: decimal;
+        }
+
         .btn, .task-input{
             border-radius: 50px;
         }
@@ -63,7 +67,7 @@
         </div>
         <button type="button" class="btn btn-primary position-relative" id="add-task-btn">Add Task</button>
         <div class="tasks my-4 fs-5">
-            <ul id="task-list"></ul>
+            <ul class="task-list" id="task-list"></ul>
         </div>
     </div>    
     <script src="script.js"></script>
