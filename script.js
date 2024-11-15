@@ -1,9 +1,10 @@
+const taskList = document.getElementById('task-list');
+
 document.getElementById('add-task-btn').addEventListener('click', function() {
     const taskInput = document.getElementById('task-input');
     const taskValue = taskInput.value.trim();
 
     if (taskValue) {
-        const taskList = document.getElementById('task-list');
         const listItem = document.createElement('li');
 
         listItem.textContent = taskValue;
@@ -22,4 +23,8 @@ document.getElementById('add-task-btn').addEventListener('click', function() {
 
         taskInput.value = '';
     }
+});
+
+document.getElementById('clear-all-btn').addEventListener('click', function() {
+    taskList.innerHTML = '';
 });
