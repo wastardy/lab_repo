@@ -1,7 +1,6 @@
 here is some technical description for my project
-
 - i wanna create simple calculator using website
-
 - calculator abilities: add, subtract, multiple, divide
-  
 - user input from web prompts
+- add To-Do List Program
+- will be a plus to create Readme file
